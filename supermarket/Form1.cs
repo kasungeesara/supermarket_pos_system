@@ -42,7 +42,7 @@ namespace supermarket
                 { 
                 if (rolecb.SelectedItem.ToString() == "ADMIN")
                 {
-                    if (forname.Text == "KASUN" && forpass.Text == "2002")
+                    if (forname.Text == "kasun" && forpass.Text == "2002")
                     {
                             category cat = new category();
                             cat.Show();
